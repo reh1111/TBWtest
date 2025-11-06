@@ -1,0 +1,13 @@
+capital = 931
+oob = "USA_2020"
+set_politics = {
+	ruling_party = conservative
+	last_election = "2014.1.1"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+declare_war_on = {
+	target = MEX
+	type = civil_war
+}

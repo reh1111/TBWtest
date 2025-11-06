@@ -1,0 +1,1370 @@
+﻿units = {
+
+	### Naval OOB ###
+	fleet = {
+		name = "North Sea Fleet"
+		naval_base = 10000
+		task_force = {
+			name = "North Sea Fleet"
+			location = 10000 #Yulin
+			ship = { name = "Type 035 Chang-Cheng 358" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = PRC version_name = "Type 035 submarine" } } }
+			ship = { name = "Type 035 Chang-Cheng 359" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = PRC version_name = "Type 035 submarine" } } }
+			ship = { name = "Type 035 Chang-Cheng 360" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = PRC version_name = "Type 035 submarine" } } }
+			ship = { name = "Type 035 Chang-Cheng 361" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = PRC version_name = "Type 035 submarine" } } }
+			ship = { name = "Type 035 Chang-Cheng 362" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = PRC version_name = "Type 035 submarine" } } }
+			ship = { name = "Type 035 Chang-Cheng 363" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = PRC version_name = "Type 035 submarine" } } }
+			ship = { name = "Type 039 Chang-Cheng 316" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = PRC version_name = "Type 039 submarine" } } }
+			ship = { name = "Type 091 Long-March 3" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = PRC version_name = "Type 091 submarine" } } }
+			ship = { name = "Type 091 Long-March 4" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = PRC version_name = "Type 091 submarine" } } }
+			ship = { name = "Type 091 Long-March 5" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = PRC version_name = "Type 091 submarine" } } }
+			ship = { 
+				name = "Type 001 Aircraft Carrier Liaoning" 
+				definition = carrier   
+				equipment = { 
+					ship_hull_carrier_conversion_bb = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "Kuznetsov-class" 
+						} 
+					} 
+				}
+			ship = {
+				name = "Type 052D Chengdu"
+				definition = heavy_cruiser
+				equipment = {
+					ship_hull_cruiser_2 = {
+						amount = 1 
+						owner = PRC 
+						version_name = "Type 052D Destroyer" 
+					}
+				}
+			}
+			ship = {
+				name = "Type 052D Qiqihar"
+				definition = heavy_cruiser
+				equipment = {
+					ship_hull_cruiser_2 = {
+						amount = 1 
+						owner = PRC 
+						version_name = "Type 052D Destroyer" 
+					}
+				}
+			}
+			ship = { 
+				name = "Type 052D Urumqi" 
+				definition = heavy_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "Type 052D Destroyer" 
+						} 
+					} 
+				}
+			ship = { 
+				name = "Type 052D Guiyang" 
+				definition = heavy_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "Type 052D Destroyer" 
+						} 
+					} 
+				}
+
+			ship = {
+				name = "Type 052C Changchun"
+				definition = heavy_cruiser
+				equipment = {
+					ship_hull_cruiser_2 = {
+						amount = 1 
+						owner = PRC 
+						version_name = "Type 052C Destroyer" 
+					}
+				}
+			}
+			ship = {
+				name = "Type 052C Jinan"
+				definition = heavy_cruiser
+				equipment = {
+					ship_hull_cruiser_2 = {
+						amount = 1 
+						owner = PRC 
+						version_name = "Type 052C Destroyer" 
+					}
+				}
+			}
+			ship = { 
+				name = "Type 054A Yantai" 
+				definition = light_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "Type 054A Frigate" 
+						} 
+					} 
+				}
+				ship = { 
+				name = "Type 054A Yancheng" 
+				definition = light_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "Type 054A Frigate" 
+						} 
+					} 
+				}
+				ship = { 
+				name = "Type 054A Linyi" 
+				definition = light_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "Type 054A Frigate" 
+						} 
+					} 
+				}
+				ship = { 
+				name = "Type 054A Daqing" 
+				definition = light_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "Type 054A Frigate" 
+						} 
+					} 
+				}
+				ship = { 
+				name = "Type 054A Hengyang" 
+				definition = light_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "Type 054A Frigate" 
+						} 
+					} 
+				}
+				ship = { 
+				name = "Type 054A Weifang" 
+				definition = light_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "Type 054A Frigate" 
+						} 
+					} 
+				}
+				ship = { 
+				name = "Type 054A Handan" 
+				definition = light_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "Type 054A Frigate" 
+						} 
+					} 
+				}
+			ship = {
+				name = "Type 054A Wuhu" 
+				definition = light_cruiser
+				equipment = {
+					ship_hull_cruiser_2 = {
+						amount = 1
+						owner = PRC 
+						version_name = "Type 054A Frigate" 
+					}
+				}
+			}
+			ship = {
+				name = "Type 054A Zaozhuang" 
+				definition = light_cruiser
+				equipment = {
+					ship_hull_cruiser_2 = {
+						amount = 1
+						owner = PRC 
+						version_name = "Type 054A Frigate" 
+					}
+				}
+			}
+			ship = {
+				name = "Type 053H3 Yichang" 
+				definition = light_cruiser
+				equipment = {
+					ship_hull_cruiser_1 = {
+						amount = 1
+						owner = PRC 
+						version_name = "Type 053H3 Frigate" 
+					}
+				}
+			}
+			ship = {
+				name = "Type 053H3 Huludao" 
+				definition = light_cruiser
+				equipment = {
+					ship_hull_cruiser_1 = {
+						amount = 1
+						owner = PRC 
+						version_name = "Type 053H3 Frigate" 
+					}
+				}
+			}
+			ship = {
+				name = "Type 056A Sanmenxia" 
+				definition = destroyer
+				equipment = {
+					ship_hull_light_2 = {
+						amount = 1
+						owner = PRC 
+						version_name = "Type 056A Corvette" 
+					}
+				}
+			}
+			ship = {
+				name = "Type 056A Huangshi" 
+				definition = destroyer
+				equipment = {
+					ship_hull_light_2 = {
+						amount = 1
+						owner = PRC 
+						version_name = "Type 056A Corvette" 
+					}
+				}
+			}
+			ship = {
+				name = "Type 056A Qinhuangdao" 
+				definition = destroyer
+				equipment = {
+					ship_hull_light_2 = {
+						amount = 1
+						owner = PRC 
+						version_name = "Type 056A Corvette" 
+					}
+				}
+			}
+			ship = {
+				name = "Type 056A Wuhai" 
+				definition = destroyer
+				equipment = {
+					ship_hull_light_2 = {
+						amount = 1
+						owner = PRC 
+						version_name = "Type 056A Corvette" 
+					}
+				}
+			}
+			ship = {
+				name = "Type 056A Zhangye" 
+				definition = destroyer
+				equipment = {
+					ship_hull_light_2 = {
+						amount = 1
+						owner = PRC 
+						version_name = "Type 056A Corvette" 
+					}
+				}
+			}
+				ship = { 
+				name = "Type 056 Datong" 
+				definition = destroyer 
+				equipment = { 
+					ship_hull_light_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "Type 056 Corvette" 
+						} 
+					} 
+				}
+				ship = { 
+				name = "Type 056 Yingkou" 
+				definition = destroyer 
+				equipment = { 
+					ship_hull_light_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "Type 056 Corvette" 
+						} 
+					} 
+				}
+				ship = { 
+				name = "Type 056 Weihai" 
+				definition = destroyer 
+				equipment = { 
+					ship_hull_light_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "Type 056 Corvette" 
+						} 
+					} 
+				}
+			ship = { 
+				name = "Type 056 Fushun" 
+				definition = destroyer 
+				equipment = { 
+					ship_hull_light_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "Type 056 Corvette" 
+						} 
+					} 
+				}
+			ship = { 
+				name = "Type 056 Xinyang" 
+				definition = destroyer 
+				equipment = { 
+					ship_hull_light_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "Type 056 Corvette" 
+						} 
+					} 
+				}
+		}
+	}
+	fleet = {
+		name = "East Sea Fleet"
+		naval_base = 7014 #Shanghai
+		task_force = {
+			name = "East Sea Fleet"
+			location = 7014 #Shanghai
+				ship = { 
+				name = "Type 052D Xiamen" 
+				definition = heavy_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "Type 052D Destroyer" 
+						} 
+					} 
+				}
+				ship = { 
+				name = "Type 052D Nanjing" 
+				definition = heavy_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "Type 052D Destroyer" 
+						} 
+					} 
+				}
+				ship = { 
+				name = "Type 052D Zibo" 
+				definition = heavy_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "Type 052D Destroyer" 
+						} 
+					} 
+				}
+				ship = { 
+				name = "Type 052D Taiyuan" 
+				definition = heavy_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "Type 052D Destroyer" 
+						} 
+					} 
+				}
+				ship = { 
+				name = "Type 052C Zhengzhou" 
+				definition = heavy_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "Type 052C Destroyer" 
+						} 
+					} 
+				}
+				ship = { 
+				name = "Type 052C Xian" 
+				definition = heavy_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "Type 052C Destroyer" 
+						} 
+					} 
+				}
+				ship = { 
+				name = "Type 956E Hangzhou" 
+				definition = heavy_cruiser 
+				equipment = { 
+					ship_hull_cruiser_1 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "Sovremenny Destroyer" 
+						} 
+					} 
+				}
+				ship = { 
+				name = "Type 956E Fuzhou" 
+				definition = heavy_cruiser 
+				equipment = { 
+					ship_hull_cruiser_1 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "Sovremenny Destroyer" 
+						} 
+					} 
+				}
+				ship = { 
+				name = "Type 956EM Taizhou" 
+				definition = heavy_cruiser 
+				equipment = { 
+					ship_hull_cruiser_1 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "Sovremenny Destroyer" 
+						} 
+					} 
+				}
+				ship = { 
+				name = "Type 956EM Ningbo" 
+				definition = heavy_cruiser 
+				equipment = { 
+					ship_hull_cruiser_1 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "Sovremenny Destroyer" 
+						} 
+					} 
+				}
+				ship = { 
+				name = "Type 054A Zhoushan" 
+				definition = light_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "Type 054A Frigate" 
+						} 
+					} 
+				}
+				ship = { 
+				name = "Type 054A Xuzhou" 
+				definition = light_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "Type 054A Frigate" 
+						} 
+					} 
+				}
+				ship = { 
+				name = "Type 054A Yiyang" 
+				definition = light_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "Type 054A Frigate" 
+						} 
+					} 
+				}
+				ship = { 
+				name = "Type 054A Changzhou" 
+				definition = light_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "Type 054A Frigate" 
+						} 
+					} 
+				}
+				ship = { 
+				name = "Type 054A Huanggang" 
+				definition = light_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "Type 054A Frigate" 
+						} 
+					} 
+				}
+				ship = { 
+				name = "Type 054A Yangzhou" 
+				definition = light_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "Type 054A Frigate" 
+						} 
+					} 
+				}
+				ship = { 
+				name = "Type 054A Jingzhou" 
+				definition = light_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "Type 054A Frigate" 
+						} 
+					} 
+				}
+				ship = { 
+				name = "Type 054A Xiangtan" 
+				definition = light_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "Type 054A Frigate" 
+						} 
+					} 
+				}
+				ship = { 
+				name = "Type 054A Binzhou" 
+				definition = light_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "Type 054A Frigate" 
+						} 
+					} 
+				}
+				ship = { 
+				name = "Type 054A Rizhao" 
+				definition = light_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "Type 054A Frigate" 
+						} 
+					} 
+				}
+				ship = { 
+				name = "Type 054A Anyang" 
+				definition = light_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "Type 054A Frigate" 
+						} 
+					} 
+				}
+				ship = { 
+				name = "Type 054A Nantong" 
+				definition = light_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "Type 054A Frigate" 
+						} 
+					} 
+				}
+				ship = { 
+				name = "Type 053H3 Jiaxing" 
+				definition = light_cruiser 
+				equipment = { 
+					ship_hull_cruiser_1 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "Type 053H3 Frigate" 
+						} 
+					} 
+				}
+			ship = {
+				name = "Type 053H3 Sanming"
+				definition = light_cruiser 
+				equipment = {
+					ship_hull_cruiser_1 = {
+						amount = 1
+						owner = PRC 
+						version_name = "Type 053H3 Frigate" 
+					}
+				}
+			}
+			ship = {
+				name = "Type 053H3 Huaihua"
+				definition = light_cruiser 
+				equipment = {
+					ship_hull_cruiser_1 = {
+						amount = 1
+						owner = PRC 
+						version_name = "Type 053H3 Frigate" 
+					}
+				}
+			}
+			ship = {
+				name = "Type 053H3 Xiangyang"
+				definition = light_cruiser 
+				equipment = {
+					ship_hull_cruiser_1 = {
+						amount = 1
+						owner = PRC 
+						version_name = "Type 053H3 Frigate" 
+					}
+				}
+			}
+			ship = {
+				name = "Type 053H1G Zhaoqing"
+				definition = light_cruiser 
+				equipment = {
+					ship_hull_cruiser_1 = {
+						amount = 1
+						owner = PRC 
+						version_name = "Type 053 Frigate" 
+					}
+				}
+			}
+			ship = {
+				name = "Type 056A Zhuzhou"
+				definition = destroyer 
+				equipment = {
+					ship_hull_light_2 = {
+						amount = 1
+						owner = PRC 
+						version_name = "Type 056A Corvette" 
+					}
+				}
+			}
+			ship = {
+				name = "Type 056A Yiwu"
+				definition = destroyer 
+				equipment = {
+					ship_hull_light_2 = {
+						amount = 1
+						owner = PRC 
+						version_name = "Type 056A Corvette" 
+					}
+				}
+			}
+			ship = {
+				name = "Type 056A Xuancheng"
+				definition = destroyer 
+				equipment = {
+					ship_hull_light_2 = {
+						amount = 1
+						owner = PRC 
+						version_name = "Type 056A Corvette" 
+					}
+				}
+			}
+			ship = {
+				name = "Type 056A Yichun"
+				definition = destroyer 
+				equipment = {
+					ship_hull_light_2 = {
+						amount = 1
+						owner = PRC 
+						version_name = "Type 056A Corvette" 
+					}
+				}
+			}
+			ship = {
+				name = "Type 056A Deyang"
+				definition = destroyer 
+				equipment = {
+					ship_hull_light_2 = {
+						amount = 1
+						owner = PRC 
+						version_name = "Type 056A Corvette" 
+					}
+				}
+			}
+			ship = {
+				name = "Type 056A Shuozhou"
+				definition = destroyer 
+				equipment = {
+					ship_hull_light_2 = {
+						amount = 1
+						owner = PRC 
+						version_name = "Type 056A Corvette" 
+					}
+				}
+			}
+			ship = {
+				name = "Type 056A Liaocheng"
+				definition = destroyer 
+				equipment = {
+					ship_hull_light_2 = {
+						amount = 1
+						owner = PRC 
+						version_name = "Type 056A Corvette" 
+					}
+				}
+			}
+				ship = { 
+				name = "Type 056 Bengbu" 
+				definition = destroyer 
+				equipment = { 
+					ship_hull_light_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "Type 056 Corvette" 
+						} 
+					} 
+				}
+				ship = { 
+				name = "Type 056 Shangrao" 
+				definition = destroyer 
+				equipment = { 
+					ship_hull_light_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "Type 056 Corvette" 
+						} 
+					} 
+				}
+				ship = { 
+				name = "Type 056 Ji'an" 
+				definition = destroyer 
+				equipment = { 
+					ship_hull_light_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "Type 056 Corvette" 
+						} 
+					} 
+				}
+				ship = { 
+				name = "Type 056 Quanzhou" 
+				definition = destroyer 
+				equipment = { 
+					ship_hull_light_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "Type 056 Corvette" 
+						} 
+					} 
+				}
+				ship = { 
+				name = "Type 056A San Men Xia" 
+				definition = destroyer 
+				equipment = { 
+					ship_hull_light_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "Type 056 Corvette" 
+						} 
+					} 
+				}
+				ship = { 
+				name = "Type 056 Suzhou" 
+				definition = destroyer 
+				equipment = { 
+					ship_hull_light_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "Type 056 Corvette" 
+						} 
+					} 
+				}
+				ship = { 
+				name = "Type 056 Baoding" 
+				definition = destroyer 
+				equipment = { 
+					ship_hull_light_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "Type 056 Corvette" 
+						} 
+					} 
+				}
+				ship = { 
+				name = "Type 056A Ezhou" 
+				definition = destroyer 
+				equipment = { 
+					ship_hull_light_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "Type 056A Corvette" 
+						} 
+					} 
+				}
+				ship = { name = "Project 636M Chang-Cheng 368" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = PRC version_name = "Kilo-class submarine" } } }
+				ship = { name = "Project 636M Chang-Cheng 369" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = PRC version_name = "Kilo-class submarine" } } }
+				ship = { name = "Project 636M Chang-Cheng 366" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = PRC version_name = "Kilo-class submarine" } } }
+				ship = { name = "Project 636M Chang-Cheng 367" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = PRC version_name = "Kilo-class submarine" } } }
+				ship = { name = "Type 039 Chang-Cheng 324" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = PRC version_name = "Type 039 submarine" } } }
+				ship = { name = "Type 039 Chang-Cheng 325" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = PRC version_name = "Type 039 submarine" } } }
+				ship = { name = "Type 039 Chang-Cheng 314" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = PRC version_name = "Type 039 submarine" } } }
+			}
+		}
+	fleet = {
+		name = "South Sea Fleet"
+		naval_base = 11981 #Zhanjiang
+		task_force = {
+			name = "South Sea Surface Fleet"
+			location = 11981 #Zhanjiang
+			ship = { name = "Type 035 Chang-Cheng 305" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = PRC version_name = "Type 035 submarine" } } }
+			ship = { name = "Type 035 Chang-Cheng 306" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = PRC version_name = "Type 035 submarine" } } }
+			ship = { name = "Type 035 Chang-Cheng 307" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = PRC version_name = "Type 035 submarine" } } }
+			ship = { name = "Type 035 Chang-Cheng 308" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = PRC version_name = "Type 035 submarine" } } }
+			ship = { name = "Type 035 Chang-Cheng 309" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = PRC version_name = "Type 035 submarine" } } }
+			ship = { name = "Type 035 Chang-Cheng 310" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = PRC version_name = "Type 035 submarine" } } }
+			ship = { name = "Type 035 Chang-Cheng 311" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = PRC version_name = "Type 035 submarine" } } }
+			ship = { name = "Type 035 Chang-Cheng 312" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = PRC version_name = "Type 035 submarine" } } }
+			ship = { name = "Type 035 Chang-Cheng 313" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = PRC version_name = "Type 035 submarine" } } }
+			ship = { name = "Type 039 Chang-Cheng 326" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = PRC version_name = "Type 039 submarine" } } }
+			ship = { name = "Type 002 Aircraft Carrier Shandong" definition = carrier equipment = { ship_hull_carrier_conversion_bb = { amount = 1 owner = PRC version_name = "Shandong-class" } } }
+			ship = { 
+				name = "Type 052D Kunming" 
+				definition = heavy_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "Type 052D Destroyer" 
+						} 
+					} 
+				}
+			ship = { 
+				name = "Type 052D Changsha" 
+				definition = heavy_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "Type 052D Destroyer" 
+						} 
+					} 
+				}
+			ship = { 
+				name = "Type 052D Yinchuan" 
+				definition = heavy_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "Type 052D Destroyer" 
+						} 
+					} 
+				}
+			ship = { 
+				name = "Type 052D Hefei" 
+				definition = heavy_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "Type 052D Destroyer" 
+						} 
+					} 
+				}
+			ship = { 
+				name = "Type 052D Hohhot" 
+				definition = heavy_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "Type 052D Destroyer" 
+						} 
+					} 
+				}
+			ship = { 
+				name = "Type 052C Lanzhou" 
+				definition = heavy_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "Type 052C Destroyer" 
+						} 
+					} 
+				}
+			ship = { 
+				name = "Type 052C Haikou" 
+				definition = heavy_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "Type 052C Destroyer" 
+						} 
+					} 
+				}
+			ship = { 
+				name = "Type 051B Shenzhen" 
+				definition = heavy_cruiser 
+				equipment = { 
+					ship_hull_cruiser_1 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "Type 051B Destroyer" 
+						} 
+					} 
+				}
+			ship = { 
+				name = "Type 052D Zhanjiang" 
+				definition = heavy_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "Type 052D Destroyer" 
+						} 
+					} 
+				}
+			ship = { 
+				name = "Type 052D Xining" 
+				definition = heavy_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "Type 052D Destroyer" 
+						} 
+					} 
+				}
+			ship = { 
+				name = "Type 054A Huangshan" 
+				definition = light_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "Type 054A Frigate" 
+						} 
+					} 
+				}
+			ship = { 
+				name = "Type 054A Xuchang" 
+				definition = light_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "Type 054A Frigate" 
+						} 
+					} 
+				}
+			ship = { 
+				name = "Type 054A Yuncheng" 
+				definition = light_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "Type 054A Frigate" 
+						} 
+					} 
+				}
+			ship = { 
+				name = "Type 054A Yulin" 
+				definition = light_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "Type 054A Frigate" 
+						} 
+					} 
+				}
+			ship = { 
+				name = "Type 054A Hengshui" 
+				definition = light_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "Type 054A Frigate" 
+						} 
+					} 
+				}
+			ship = { 
+				name = "Type 054A Liuzhou" 
+				definition = light_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "Type 054A Frigate" 
+						} 
+					} 
+				}
+			ship = { 
+				name = "Type 054A Sanya" 
+				definition = light_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "Type 054A Frigate" 
+						} 
+					} 
+				}
+			ship = { 
+				name = "Type 054A Yueyang" 
+				definition = light_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "Type 054A Frigate" 
+						} 
+					} 
+				}
+			ship = { 
+				name = "Type 054A Xian'ning" 
+				definition = light_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "Type 054A Frigate" 
+						} 
+					} 
+				}
+			ship = {
+				name = "Type 053H3 Luoyang" 
+				definition = light_cruiser 
+				equipment = {
+					ship_hull_cruiser_1 = {
+						amount = 1 
+						owner = PRC
+						version_name = "Type 053H3 Frigate" 
+					}
+				}
+			}
+			ship = {
+				name = "Type 053H3 Mianyang" 
+				definition = light_cruiser 
+				equipment = {
+					ship_hull_cruiser_1 = {
+						amount = 1 
+						owner = PRC
+						version_name = "Type 053H3 Frigate" 
+					}
+				}
+			}
+			
+			ship = { 
+				name = "Type 053H1G Beihai" 
+				definition = light_cruiser 
+				equipment = { 
+					ship_hull_cruiser_1 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "Type 053 Frigate" 
+						} 
+					} 
+				}
+			ship = { 
+				name = "Type 053H1G Dongguan" 
+				definition = light_cruiser 
+				equipment = { 
+					ship_hull_cruiser_1 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "Type 053 Frigate" 
+						} 
+					} 
+				}
+			ship = { 
+				name = "Type 053H1G Shantou" 
+				definition = light_cruiser 
+				equipment = { 
+					ship_hull_cruiser_1 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "Type 053 Frigate" 
+						} 
+					} 
+				}
+			ship = { 
+				name = "Type 053H1G Jiangmen" 
+				definition = light_cruiser 
+				equipment = { 
+					ship_hull_cruiser_1 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "Type 053 Frigate" 
+						} 
+					} 
+				}
+			ship = { 
+				name = "Type 053H1G Foshan" 
+				definition = light_cruiser 
+				equipment = { 
+					ship_hull_cruiser_1 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "Type 053 Frigate" 
+						} 
+					} 
+				}
+			ship = {
+				name = "Type 056A Suqian"
+				definition = destroyer 
+				equipment = {
+					ship_hull_light_2 ={
+						amount = 1
+						owner = PRC 
+						version_name = "Type 056A Corvette"
+					}
+				}
+			}
+			ship = {
+				name = "Type 056A Hanzhong"
+				definition = destroyer 
+				equipment = {
+					ship_hull_light_2 ={
+						amount = 1
+						owner = PRC 
+						version_name = "Type 056A Corvette"
+					}
+				}
+			}
+			ship = {
+				name = "Type 056A Suining"
+				definition = destroyer 
+				equipment = {
+					ship_hull_light_2 ={
+						amount = 1
+						owner = PRC 
+						version_name = "Type 056A Corvette"
+					}
+				}
+			}
+			ship = {
+				name = "Type 056A Guangyuan"
+				definition = destroyer 
+				equipment = {
+					ship_hull_light_2 ={
+						amount = 1
+						owner = PRC 
+						version_name = "Type 056A Corvette"
+					}
+				}
+			}
+			ship = {
+				name = "Type 056A Nanchong"
+				definition = destroyer 
+				equipment = {
+					ship_hull_light_2 ={
+						amount = 1
+						owner = PRC 
+						version_name = "Type 056A Corvette"
+					}
+				}
+			}
+			ship = {
+				name = "Type 056A Bazhong"
+				definition = destroyer 
+				equipment = {
+					ship_hull_light_2 ={
+						amount = 1
+						owner = PRC 
+						version_name = "Type 056A Corvette"
+					}
+				}
+			}
+			ship = {
+				name = "Type 056A Wuzhou"
+				definition = destroyer 
+				equipment = {
+					ship_hull_light_2 ={
+						amount = 1
+						owner = PRC 
+						version_name = "Type 056A Corvette"
+					}
+				}
+			}
+			ship = {
+				name = "Type 056A Wenshan"
+				definition = destroyer 
+				equipment = {
+					ship_hull_light_2 ={
+						amount = 1
+						owner = PRC 
+						version_name = "Type 056A Corvette"
+					}
+				}
+			}
+			ship = { 
+				name = "Type 056 Meizhou" 
+				definition = destroyer 
+				equipment = { 
+					ship_hull_light_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "Type 056 Corvette" 
+						} 
+					} 
+				}
+			ship = { 
+				name = "Type 056 Baise" 
+				definition = destroyer 
+				equipment = { 
+					ship_hull_light_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "Type 056 Corvette" 
+						} 
+					} 
+				}
+			ship = { 
+				name = "Type 056 Jieyang" 
+				definition = destroyer 
+				equipment = { 
+					ship_hull_light_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "Type 056 Corvette" 
+						} 
+					} 
+				}
+			ship = { 
+				name = "Type 056 Qingyuan" 
+				definition = destroyer 
+				equipment = { 
+					ship_hull_light_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "Type 056 Corvette" 
+						} 
+					} 
+				}
+			ship = { 
+				name = "Type 056 Luzhou" 
+				definition = destroyer 
+				equipment = { 
+					ship_hull_light_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "Type 056 Corvette" 
+						} 
+					} 
+				}
+			ship = { 
+				name = "Type 056A Jingmen" 
+				definition = destroyer 
+				equipment = { 
+					ship_hull_light_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "Type 056A Corvette" 
+						} 
+					} 
+				}
+			ship = { 
+				name = "Type 056A Tongren" 
+				definition = destroyer 
+				equipment = { 
+					ship_hull_light_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "Type 056A Corvette" 
+						} 
+					} 
+				}
+			ship = { 
+				name = "Type 056A Qujing" 
+				definition = destroyer 
+				equipment = { 
+					ship_hull_light_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "Type 056A Corvette" 
+						} 
+					} 
+				}
+			ship = { 
+				name = "Type 056A Liupanshui" 
+				definition = destroyer 
+				equipment = { 
+					ship_hull_light_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "Type 056A Corvette" 
+						} 
+					} 
+				}
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_carrier_1
+			creator = "PRC"
+			version_name = "Fujian-class"
+		}
+		name = "Type 003 aircraft carrier Fujian" 
+		requested_factories = 3
+		progress = 0.6
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_2
+			creator = "PRC"
+			version_name = "Type 055 Missile Destroyer"
+		}
+		name = "Type 055 Nanchang"
+		requested_factories = 5
+		progress = 0.9
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_2
+			creator = "PRC"
+			version_name = "Type 055 Missile Destroyer"
+		}
+		name = "Type 055 Lasa"
+		requested_factories = 3
+		progress = 0.6
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_2
+			creator = "PRC"
+			version_name = "Type 055 Missile Destroyer"
+		}
+		name = "Type 055 Dalian"
+		requested_factories = 3
+		progress = 0.5
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_2
+			creator = "PRC"
+			version_name = "Type 055 Missile Destroyer"
+		}
+		name = "Type 055 Anshan"
+		requested_factories = 3
+		progress = 0.2
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_2
+			creator = "PRC"
+			version_name = "Type 055 Missile Destroyer"
+		}
+		name = "Type 055 Wuxi"
+		requested_factories = 3
+		progress = 0.2
+		amount = 1
+	}
+}

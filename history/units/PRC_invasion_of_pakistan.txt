@@ -1,0 +1,79 @@
+﻿division_template = {
+	name = "Kongxi Lu Pakistan"
+	is_locked = yes 
+	regiments = {
+		paratrooper = { x = 0 y = 0 }
+		paratrooper = { x = 0 y = 1 }
+		paratrooper = { x = 0 y = 2 }
+		paratrooper = { x = 1 y = 0 }
+		paratrooper = { x = 1 y = 1 }
+		paratrooper = { x = 1 y = 2 }
+	}
+	
+	support = {
+		recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		anti_tank = { x = 0 y = 2 }
+		signal_company = { x = 0 y = 3 }
+	}
+	priority = 2
+}
+
+units = {
+	division = {			
+		name = "1. Kongxi Lu Pakistan"
+		location = 10536
+		division_template = "Kongxi Lu Pakistan"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "2. Kongxi Lu Pakistan"
+		location = 10536
+		division_template = "Kongxi Lu Pakistan"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "3. Kongxi Lu Pakistan"
+		location = 10887
+		division_template = "Kongxi Lu Pakistan"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "4. Kongxi Lu Pakistan"
+		location = 10887
+		division_template = "Kongxi Lu Pakistan"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "5. Kongxi Lu Pakistan"
+		location = 10139
+		division_template = "Kongxi Lu Pakistan"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "6. Kongxi Lu Pakistan"
+		location = 10735
+		division_template = "Kongxi Lu Pakistan"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "7. Kongxi Lu Pakistan"
+		location = 3456
+		division_template = "Kongxi Lu Pakistan"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "8. Kongxi Lu Pakistan"
+		location = 3456
+		division_template = "Kongxi Lu Pakistan"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+}

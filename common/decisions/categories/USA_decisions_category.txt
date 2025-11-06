@@ -1,0 +1,6 @@
+civil_war_usa = {
+	icon = GFX_decision_generic_political_reform
+	available = {
+		has_global_flag = civ_usa
+	}
+}

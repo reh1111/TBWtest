@@ -1,0 +1,15 @@
+on_actions = {
+	on_daily = {
+		effect = {
+			if = {
+				limit = { date >1953.1.6 }
+				white_peace = USA
+				set_global_flag = civ_usa
+			}
+			if = {
+				limit = { date > 1953.7.6 }
+				country_event = REV.1
+			}
+			}
+	}
+}

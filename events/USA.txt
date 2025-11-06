@@ -1,0 +1,13 @@
+add_namespace = REV
+country_event = {
+	id = REV.1
+	title = REV.t
+	desc = REV.d
+	option = {
+		name = REV.o
+		release = PRM
+		release = CON
+		release = TEC
+		release = UPT
+	}
+}

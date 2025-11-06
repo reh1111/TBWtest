@@ -1,0 +1,5 @@
+music = {
+	name = "maintheme"
+	file = "TBW_MainTheme.ogg"
+	volume = 0.65
+}

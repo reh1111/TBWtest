@@ -1,0 +1,43 @@
+﻿### Air OOB ###
+air_wings = {
+	162 = {
+		#Eurofighter Typhoon
+		small_plane_airframe_1 =  {
+			owner = "ITA" 
+			amount = 36
+			version_name = "Eurofighter Typhoon"
+		}
+	}
+	156 = {
+		#Eurofighter Typhoon
+		small_plane_airframe_1 =  {
+			owner = "ITA" 
+			amount = 36
+			version_name = "Eurofighter Typhoon"
+		}
+	}
+	115 = {
+		#Eurofighter Typhoon
+		small_plane_airframe_1 =  {
+			owner = "ITA" 
+			amount = 18
+			version_name = "Eurofighter Typhoon"
+		}
+	}
+	159 = {
+		#Tornado IDS
+		small_plane_cas_airframe_1 =  {
+			owner = "ITA" 
+			amount = 36
+			version_name = "Tornado IDS"
+		}
+	}
+	160 = {
+		#AMX
+		small_plane_cas_airframe_0 =  {
+			owner = "ITA" 
+			amount = 40
+			version_name = "AMX International"
+		}
+	}
+}

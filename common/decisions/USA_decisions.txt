@@ -1,0 +1,11 @@
+civil_war_usa = {
+	 civ_war = {
+		available = {
+			
+		}
+		days_mission_timeout = 80
+		complete_effect = {
+			release = USB
+		}
+	 }
+}
