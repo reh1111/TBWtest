@@ -96,4 +96,4 @@ TEC = "countries/Tecnocrat USA.txt"
 UPT = "countries/United front of america.txt"
 RUS = "countries/Russian country.txt"
 ITR = "countries/italiann.txt"
-
+SOZ = "countries/Savoyan occuppy zone.txt"

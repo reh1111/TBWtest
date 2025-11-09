@@ -1108,10 +1108,6 @@ RCO = {
 	color = rgb { 115 115 115 }
 	color_ui = rgb { 122 145 93 }
 }
-RUS = {
-	color = rgb { 115 115 115 }
-	color_ui = rgb { 122 145 93 }
-}
 RHD = {
 	color = rgb { 115 115 115 }
 	color_ui = rgb { 122 145 93 }
@@ -1189,5 +1185,10 @@ RUS = {
 ITR = {
 	color = rgb{
 		0 255 0
+	}
+}
+SOZ = {
+	color = rgb {
+		0 0 0
 	}
 }

@@ -298,7 +298,6 @@ RNA = "countries/Reichskommisariat Nordafrika.txt"
 RKV = "countries/Reichskommisariat Klein Venedig.txt"
 RAN = "countries/Reichskommisariat Anden.txt"
 RCO = "countries/Reichskommisariat Kolumbus.txt"
-RUS = "countries/Reichskommisariat Nordamerika.txt"
 
 # REICHSKOMMISSARIATS (no cores) (Asian)
 RHD = "countries/Reichskommisariat Grosshindustan.txt"
