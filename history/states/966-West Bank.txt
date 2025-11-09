@@ -3,7 +3,7 @@ state={
 	name="STATE_966"
 
 	history={
-		owner = MPL
+		owner = PAL
 		buildings = {
 			infrastructure = 3 #was 5
 		}
