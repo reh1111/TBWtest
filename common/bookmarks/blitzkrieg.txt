@@ -9,6 +9,16 @@ bookmarks = {
 			history = ---_BLITZKRIEG_DESC
 			
 		}
+		"GER" = {
+			ideology = fascist
+			history = "GER_history"
+			focuses = {
+				
+			}
+			ideas = {
+				
+			}
+		}
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !
 			#123 = { rain_light = yes }
