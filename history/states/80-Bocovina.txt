@@ -9,7 +9,7 @@ state={
 		victory_points = {
 			577 1 
 		}
-		owner = ROM
+		owner = SOV
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
@@ -17,6 +17,7 @@ state={
 		add_core_of = ROM
 		add_core_of = RUT #Used for UPA movement. Start date owner + others cant release. 
 		add_claim_by = UKR
+		add_core_of = SOV
 	}
 	provinces={
 		577 9548
