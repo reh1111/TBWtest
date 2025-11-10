@@ -1192,3 +1192,23 @@ SOZ = {
 		27 77 44
 	}
 }
+IND = {
+	color = rgb{
+		255 136 0
+	}
+}
+SFO = {
+	color = rgb{
+		17 49 12
+	}
+}
+JAC = {
+	color = rgb {
+		18 33 235
+	}
+}
+NPF = {
+	color = rgb {
+		252 77 65
+	}
+}
