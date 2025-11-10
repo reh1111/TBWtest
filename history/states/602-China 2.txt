@@ -6,9 +6,10 @@ state={
 	}
 
 	history={
-		owner = CHI
+		owner = JAC
 		add_core_of = CHI
 		add_core_of = PRC
+		add_core_of = JAC
 		buildings = {
 			infrastructure = 3 #was: 5
 			industrial_complex = 2

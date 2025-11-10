@@ -8,7 +8,7 @@ state={
 	
 	history={
 		save_global_event_target_as = KMT_treasure_state
-		owner = CHI
+		owner = JAC
 		add_core_of = CHI
 		add_core_of = PRC
 		buildings = {
