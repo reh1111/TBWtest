@@ -12,7 +12,7 @@ state={
 			infrastructure = 1
 		}
 		add_core_of = SOV
-		add_core_of = EVE
+		add_core_of = RUS
 
 		victory_points = { #Tura
 			7805 1
