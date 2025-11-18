@@ -9,7 +9,7 @@ state={
 	#}
 
 	history={
-		owner = ENG # Part of the Strait Settlements
+		owner = JAP
 		victory_points = {
 			12299 10 
 		}

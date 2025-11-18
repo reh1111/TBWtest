@@ -11,5 +11,78 @@ focus_tree = {
 		x = 0
 		y = 2588
 	}
-	default = yes
-}
+	default = yes 
+	focus = {
+        id = New_world_order_sov
+        icon = x
+        cost = 5
+        x = 5
+        y = 0
+        completion_reward = { }
+    }
+	focus = {
+        id = House_of_cards
+        icon = x
+        cost = 5
+		prerequisite = { 
+            focus = New_world_order_sov 
+        }
+        x = 5
+        y = 1.5
+        completion_reward = { }
+    }
+focus = {
+        id = sov_fractionalism
+        icon = x
+        cost = 3
+		prerequisite = {
+            focus = House_of_cards
+        }
+        x = 8
+        y = 3
+        completion_reward = { }
+    }
+	focus = {
+        id = sov_patriots
+        icon = x
+        cost = 2
+		prerequisite = {
+            focus = sov_fractionalism
+        }
+		mutually_exclusive = {
+            focus = sov_fractionalism
+        }
+        x = 12
+        y = 4.5
+        completion_reward = { }
+    }
+	focus = {
+        id = sov_reformists
+        icon = x
+        cost = 2
+		prerequisite = {
+            focus = sov_fractionalism
+        }
+		mutually_exclusive = {
+            focus = sov_fractionalism 
+        }
+        x = 4
+        y = 4.5
+        completion_reward = { }
+    }
+	focus = { 
+		id = sov_centre
+		icon = x
+		cost = 2
+		prerequisite = {
+            focus = sov_fractionalism
+        }
+		mutually_exclusive = {
+			focus = sov_fractionalism
+		}
+		x = 8
+		y = 4.5
+
+
+	}
+} 

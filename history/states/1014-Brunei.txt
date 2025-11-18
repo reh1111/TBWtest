@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		owner = ENG # Was a potectorate seperate from British Malaysia
+		owner = JAP 
 		victory_points = {
 			7387 2
 		}

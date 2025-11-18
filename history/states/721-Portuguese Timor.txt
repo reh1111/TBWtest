@@ -7,7 +7,7 @@ state={
 	state_category = town
 
 	history={
-		owner = POR
+		owner = TML
 		add_core_of = TML
 		buildings = {
 			industrial_complex = 1

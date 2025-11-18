@@ -6,7 +6,7 @@ state={
 	state_category = pastoral
 
 	history= {
-		owner = INS
+		owner = PPA
 		add_claim_by = PNG
 		add_core_of = PPA
 		victory_points = {
