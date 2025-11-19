@@ -147,7 +147,7 @@ focus = {
     focus = {
         id = sov_revolution
         icon = x
-        cost = 2
+        cost = 3
         prerequisite {
             focus = sov_tuhach_connections
         }
@@ -191,5 +191,87 @@ focus = {
         y = 7.5
         completion_reward = { }
     }
-
+focus = {
+        id = sov_corrupted
+        icon = x
+        cost = 2
+        prerequisite {
+            focus = sov_stalins_look
+        }
+        x = 9
+        y = 7.5
+        completion_reward = { }
+    }
+    focus = {
+        id = sov_stability
+        icon = x
+        cost = 3
+        x = 8
+        y = 9
+        completion_reward = { }
+        prerequisite {
+            focus = sov_with_features
+        }
+        prerequisite { 
+            focus = sov_corrupted
+        }
+    }
+    focus = {
+        id = sov_contacts_OKB
+        icon = x
+        cost = 2
+        prerequisite = {
+            focus = sov_reformists
+        }
+        x = 3
+        y = 6
+        completion_reward = { }
+    }
+focus = {
+        id = sov_reforms_promises
+        icon = x
+        cost = 2
+        prerequisite {
+            focus = sov_reformists
+        }
+        x = 5
+        y = 6
+        completion_reward = { }
+    }
+    focus = {
+        id = sov_solidarity
+        icon = x
+        cost = 2
+        prerequisite {
+            focus = sov_contacts_OKB
+        }
+        x = 3
+        y = 7.5
+        completion_reward = { }
+    }
+    focus = {
+        id = sov_dem
+        icon = x
+        cost = 2
+        prerequisite {
+            focus = sov_reforms_promises
+        }
+        x = 5
+        y = 7.5
+        completion_reward = { }
+    }
+    focus = {
+        id = sov_evolution
+        icon = x
+        cost = 3
+        prerequisite {
+            focus = sov_solidarity
+        }
+        prerequisite {
+            focus = sov_dem
+        }
+        x = 4
+        y = 9
+        completion_reward = { }
+    }
 } 
