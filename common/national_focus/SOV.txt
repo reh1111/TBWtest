@@ -13,7 +13,7 @@ focus_tree = {
 	}
 	default = yes 
 	focus = {
-        id = New_world_order_sov
+        id = sov_new_world_order
         icon = x
         cost = 5
         x = 5
@@ -21,11 +21,11 @@ focus_tree = {
         completion_reward = { }
     }
 	focus = {
-        id = House_of_cards
+        id = sov_house_of_cards
         icon = x
         cost = 5
 		prerequisite = { 
-            focus = New_world_order_sov 
+            focus = sov_new_world_order
         }
         x = 5
         y = 1.5
@@ -36,7 +36,10 @@ focus = {
         icon = x
         cost = 3
 		prerequisite = {
-            focus = House_of_cards
+            focus = sov_house_of_cards
+        }
+         mutually_exclusive = {
+            focus = sov_house_of_cards 
         }
         x = 8
         y = 3
@@ -52,7 +55,7 @@ focus = {
 		mutually_exclusive = {
             focus = sov_fractionalism
         }
-        x = 12
+        x = 13
         y = 4.5
         completion_reward = { }
     }
@@ -82,7 +85,111 @@ focus = {
 		}
 		x = 8
 		y = 4.5
-
-
 	}
+    focus = {
+        id = sov_unavilable
+        icon = x
+        cost = 3
+        prerequisite = {
+            focus = sov_house_of_cards
+        }
+        mutually_exclusive = {
+            focus = sov_house_of_cards 
+        }
+        x = 2
+        y = 3
+        completion_reward = { }
+    }
+    focus = {
+        id = sov_hrusch_connections
+        icon = x
+        cost = 2
+        x = 12
+        y = 6
+        completion_reward = { }
+        prerequisite = {
+            focus = sov_patriots
+        }
+    }
+    focus = {
+        id = sov_russian_public
+        icon = x
+        cost = 2
+        prerequisite = {
+            focus = sov_patriots
+        }
+        x = 14
+        y = 6
+        completion_reward = { }
+    }
+    focus = {
+        id = sov_tuhach_connections
+        icon = x
+        cost = 2
+        prerequisite {
+            focus = sov_hrusch_connections
+        }
+        x = 12
+        y = 7.5
+        completion_reward = { }
+    }
+    focus = {
+        id = sov_rodionov_union
+        icon = x
+        cost = 2
+        prerequisite {
+            focus = sov_russian_public
+        }
+        x = 14
+        y = 7.5
+        completion_reward = { }
+    }
+    focus = {
+        id = sov_revolution
+        icon = x
+        cost = 2
+        prerequisite {
+            focus = sov_tuhach_connections
+        }
+        prerequisite {
+            focus = sov_rodionov_union
+        }
+        x = 13
+        y = 9
+        completion_reward = { }
+    }
+    focus = {
+        id = sov_old_ways
+        icon = x
+        cost = 2
+        prerequisite {
+            focus = sov_centre
+        }
+        x = 7
+        y = 6
+        completion_reward = { }
+    }
+    focus = {
+        id = sov_stalins_look
+        icon = x
+        cost = 2
+        prerequisite {
+            focus = sov_centre
+        }
+        x = 9
+        y = 6
+        completion_reward = { }
+    }
+    focus = {
+        id = sov_with_features
+        icon = x
+        cost = 2
+        prerequisite {
+            focus = sov_old_ways
+        }
+        x = 7
+        y = 7.5
+        completion_reward = { }
+    }
+
 } 
