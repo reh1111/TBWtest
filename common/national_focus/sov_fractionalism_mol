@@ -86,11 +86,40 @@ focus_tree = {
         completion_reward = { }
     }
     focus = {
-        id = x
+        id = sov_humiliate_mal
         icon = x
-        cost = x
-        x = x
-        y = x
+        cost = 2
+        prerequisite {
+        focus = sov_peace_with_zhukov
+        focus = sov_get_rid_of_zhukov
+        }
+        x = 6
+        y = 4.5
+        completion_reward = { }
+    }
+    focus = {
+        id = sov_end_of_traitors
+        icon = x
+        cost = 2
+        prerequisite {
+        focus = sov_execute_beria
+        }
+        prerequisite {
+            focus = sov_humiliate_mal
+        }
+        x = 5
+        y = 6
+        completion_reward = { }
+    }
+    focus = {
+        id = sov_oper_mol
+        icon = x
+        cost = 5
+        prerequisite {
+            focus = sov_end_of_traitors
+        }
+        x = 5
+        y = 7.5
         completion_reward = { }
     }
 }
