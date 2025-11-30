@@ -14,7 +14,7 @@ focus_tree = {
 	default = yes 
 	focus = {
         id = sov_new_world_order
-        icon = x
+        icon = GFX_goal_unknown
         cost = 5
         x = 5
         y = 0
@@ -22,7 +22,7 @@ focus_tree = {
     }
 	focus = {
         id = sov_house_of_cards
-        icon = x
+        icon = GFX_goal_unknown
         cost = 5
 		prerequisite = { 
             focus = sov_new_world_order
@@ -33,7 +33,7 @@ focus_tree = {
     }
 focus = {
         id = sov_fractionalism
-        icon = x
+        icon = GFX_goal_unknown
         cost = 3
 		prerequisite = {
             focus = sov_house_of_cards
@@ -47,7 +47,7 @@ focus = {
     }
 	focus = {
         id = sov_patriots
-        icon = x
+        icon = GFX_goal_unknown
         cost = 2
 		prerequisite = {
             focus = sov_fractionalism
@@ -61,7 +61,7 @@ focus = {
     }
 	focus = {
         id = sov_reformists
-        icon = x
+        icon = GFX_goal_unknown
         cost = 2
 		prerequisite = {
             focus = sov_fractionalism
@@ -75,7 +75,7 @@ focus = {
     }
 	focus = { 
 		id = sov_centre
-		icon = x
+		icon = GFX_goal_unknown
 		cost = 2
 		prerequisite = {
             focus = sov_fractionalism
@@ -88,9 +88,9 @@ focus = {
 	}
     focus = {
         id = sov_unavilable
-        icon = x
+        icon = GFX_goal_unknown
         cost = 3
-        prerequisite = {
+       prerequisite = {
             focus = sov_house_of_cards
         }
         mutually_exclusive = {
@@ -102,20 +102,20 @@ focus = {
     }
     focus = {
         id = sov_hrusch_connections
-        icon = x
+        icon = GFX_goal_unknown
         cost = 2
         x = 12
         y = 6
         completion_reward = { }
-        prerequisite = {
+       prerequisite = {
             focus = sov_patriots
         }
     }
     focus = {
         id = sov_russian_public
-        icon = x
+        icon = GFX_goal_unknown
         cost = 2
-        prerequisite = {
+       prerequisite = {
             focus = sov_patriots
         }
         x = 14
@@ -124,9 +124,9 @@ focus = {
     }
     focus = {
         id = sov_tuhach_connections
-        icon = x
+        icon = GFX_goal_unknown
         cost = 2
-        prerequisite {
+        prerequisite = {
             focus = sov_hrusch_connections
         }
         x = 12
@@ -135,9 +135,9 @@ focus = {
     }
     focus = {
         id = sov_rodionov_union
-        icon = x
+        icon = GFX_goal_unknown
         cost = 2
-        prerequisite {
+        prerequisite = {
             focus = sov_russian_public
         }
         x = 14
@@ -146,12 +146,12 @@ focus = {
     }
     focus = {
         id = sov_revolution
-        icon = x
+        icon = GFX_goal_unknown
         cost = 3
-        prerequisite {
+        prerequisite = {
             focus = sov_tuhach_connections
         }
-        prerequisite {
+        prerequisite = {
             focus = sov_rodionov_union
         }
         x = 13
@@ -160,9 +160,9 @@ focus = {
     }
     focus = {
         id = sov_old_ways
-        icon = x
+        icon = GFX_goal_unknown
         cost = 2
-        prerequisite {
+        prerequisite = {
             focus = sov_centre
         }
         x = 7
@@ -171,9 +171,9 @@ focus = {
     }
     focus = {
         id = sov_stalins_look
-        icon = x
+        icon = GFX_goal_unknown
         cost = 2
-        prerequisite {
+        prerequisite = {
             focus = sov_centre
         }
         x = 9
@@ -182,9 +182,9 @@ focus = {
     }
     focus = {
         id = sov_with_features
-        icon = x
+        icon = GFX_goal_unknown
         cost = 2
-        prerequisite {
+        prerequisite = {
             focus = sov_old_ways
         }
         x = 7
@@ -193,9 +193,9 @@ focus = {
     }
 focus = {
         id = sov_corrupted
-        icon = x
+        icon = GFX_goal_unknown
         cost = 2
-        prerequisite {
+        prerequisite = {
             focus = sov_stalins_look
         }
         x = 9
@@ -204,23 +204,23 @@ focus = {
     }
     focus = {
         id = sov_stability
-        icon = x
+        icon = GFX_goal_unknown
         cost = 3
         x = 8
         y = 9
         completion_reward = { }
-        prerequisite {
+        prerequisite = {
             focus = sov_with_features
         }
-        prerequisite { 
+        prerequisite = { 
             focus = sov_corrupted
         }
     }
     focus = {
         id = sov_contacts_OKB
-        icon = x
+        icon = GFX_goal_unknown
         cost = 2
-        prerequisite = {
+       prerequisite = {
             focus = sov_reformists
         }
         x = 3
@@ -229,9 +229,9 @@ focus = {
     }
 focus = {
         id = sov_reforms_promises
-        icon = x
+        icon = GFX_goal_unknown
         cost = 2
-        prerequisite {
+        prerequisite = {
             focus = sov_reformists
         }
         x = 5
@@ -240,9 +240,9 @@ focus = {
     }
     focus = {
         id = sov_solidarity
-        icon = x
+        icon = GFX_goal_unknown
         cost = 2
-        prerequisite {
+        prerequisite = {
             focus = sov_contacts_OKB
         }
         x = 3
@@ -251,9 +251,9 @@ focus = {
     }
     focus = {
         id = sov_dem
-        icon = x
+        icon = GFX_goal_unknown
         cost = 2
-        prerequisite {
+        prerequisite = {
             focus = sov_reforms_promises
         }
         x = 5
@@ -262,12 +262,12 @@ focus = {
     }
     focus = {
         id = sov_evolution
-        icon = x
+        icon = GFX_goal_unknown
         cost = 3
-        prerequisite {
+        prerequisite = {
             focus = sov_solidarity
         }
-        prerequisite {
+        prerequisite = {
             focus = sov_dem
         }
         x = 4
