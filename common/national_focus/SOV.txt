@@ -28,7 +28,7 @@ focus_tree = {
             focus = sov_new_world_order
         }
         x = 5
-        y = 1.5
+        y = 1
         completion_reward = { }
     }
 focus = {
@@ -42,7 +42,7 @@ focus = {
             focus = sov_house_of_cards 
         }
         x = 8
-        y = 3
+        y = 2
         completion_reward = { }
     }
 	focus = {
@@ -56,7 +56,7 @@ focus = {
             focus = sov_fractionalism
         }
         x = 13
-        y = 4.5
+        y = 3
         completion_reward = { }
     }
 	focus = {
@@ -70,7 +70,7 @@ focus = {
             focus = sov_fractionalism 
         }
         x = 4
-        y = 4.5
+        y = 3
         completion_reward = { }
     }
 	focus = { 
@@ -84,7 +84,7 @@ focus = {
 			focus = sov_fractionalism
 		}
 		x = 8
-		y = 4.5
+		y = 3
 	}
     focus = {
         id = sov_unavilable
@@ -97,7 +97,7 @@ focus = {
             focus = sov_house_of_cards 
         }
         x = 2
-        y = 3
+        y = 2
         completion_reward = { }
     }
     focus = {
@@ -105,7 +105,7 @@ focus = {
         icon = GFX_goal_unknown
         cost = 2
         x = 12
-        y = 6
+        y = 4
         completion_reward = { }
        prerequisite = {
             focus = sov_patriots
@@ -119,7 +119,7 @@ focus = {
             focus = sov_patriots
         }
         x = 14
-        y = 6
+        y = 4
         completion_reward = { }
     }
     focus = {
@@ -130,7 +130,7 @@ focus = {
             focus = sov_hrusch_connections
         }
         x = 12
-        y = 7.5
+        y = 5
         completion_reward = { }
     }
     focus = {
@@ -141,7 +141,7 @@ focus = {
             focus = sov_russian_public
         }
         x = 14
-        y = 7.5
+        y = 5
         completion_reward = { }
     }
     focus = {
@@ -155,7 +155,7 @@ focus = {
             focus = sov_rodionov_union
         }
         x = 13
-        y = 9
+        y = 6
         completion_reward = { }
     }
     focus = {
@@ -166,7 +166,7 @@ focus = {
             focus = sov_centre
         }
         x = 7
-        y = 6
+        y = 4
         completion_reward = { }
     }
     focus = {
@@ -177,7 +177,7 @@ focus = {
             focus = sov_centre
         }
         x = 9
-        y = 6
+        y = 4
         completion_reward = { }
     }
     focus = {
@@ -188,7 +188,7 @@ focus = {
             focus = sov_old_ways
         }
         x = 7
-        y = 7.5
+        y = 5
         completion_reward = { }
     }
 focus = {
@@ -199,7 +199,7 @@ focus = {
             focus = sov_stalins_look
         }
         x = 9
-        y = 7.5
+        y = 5
         completion_reward = { }
     }
     focus = {
@@ -207,7 +207,7 @@ focus = {
         icon = GFX_goal_unknown
         cost = 3
         x = 8
-        y = 9
+        y = 6
         completion_reward = { }
         prerequisite = {
             focus = sov_with_features
@@ -224,7 +224,7 @@ focus = {
             focus = sov_reformists
         }
         x = 3
-        y = 6
+        y = 4
         completion_reward = { }
     }
 focus = {
@@ -235,7 +235,7 @@ focus = {
             focus = sov_reformists
         }
         x = 5
-        y = 6
+        y = 4
         completion_reward = { }
     }
     focus = {
@@ -246,7 +246,7 @@ focus = {
             focus = sov_contacts_OKB
         }
         x = 3
-        y = 7.5
+        y = 5
         completion_reward = { }
     }
     focus = {
@@ -257,7 +257,7 @@ focus = {
             focus = sov_reforms_promises
         }
         x = 5
-        y = 7.5
+        y = 5
         completion_reward = { }
     }
     focus = {
@@ -271,7 +271,7 @@ focus = {
             focus = sov_dem
         }
         x = 4
-        y = 9
+        y = 6
         completion_reward = { }
     }
 } 
@@ -305,7 +305,7 @@ focus_tree = {
             focus = sov_patriots_triumph
         }
         x = 5
-        y = 1.5
+        y = 1
         completion_reward = { }
     }
       focus = {
@@ -316,7 +316,7 @@ focus_tree = {
             focus = sov_first_steps_mol
         }
         x = 3.5
-        y = 3
+        y = 2
         completion_reward = { }
     }
     focus = {
@@ -330,7 +330,7 @@ focus_tree = {
             focus = sov_first_steps_mol 
         }
         x = 5
-        y = 3
+        y = 2
         completion_reward = { }
     }
     focus = {
@@ -344,7 +344,7 @@ focus_tree = {
             focus = sov_first_steps_mol 
         }
         x = 6.5
-        y = 3
+        y = 2
         completion_reward = { }
     }
     focus = {
@@ -359,7 +359,7 @@ focus_tree = {
             focus = sov_get_rid_of_zhukov
         }
         x = 4.3
-        y = 4.5
+        y = 3
         completion_reward = { }
     }
     focus = {
@@ -371,7 +371,7 @@ focus_tree = {
         focus = sov_get_rid_of_zhukov
         }
         x = 6
-        y = 4.5
+        y = 3
         completion_reward = { }
     }
     focus = {
@@ -385,7 +385,7 @@ focus_tree = {
             focus = sov_humiliate_mal
         }
         x = 5
-        y = 6
+        y = 4
         completion_reward = { }
     }
     focus = {
@@ -396,7 +396,7 @@ focus_tree = {
             focus = sov_end_of_traitors
         }
         x = 5
-        y = 7.5
+        y = 5
         completion_reward = { }
     }
 }

@@ -1,0 +1,34 @@
+focus_tree = {
+	id = SOV_mol_main
+	country = { 
+		factor = 0
+		modifier = {
+			tag = SOV
+			add = 10
+		}
+	}
+	continuous_focus_position = {
+		x = 0
+		y = 2588
+	}
+	default = yes
+    focus = {
+        id = sov_all_again
+        icon = x
+        cost = 5
+        x = 5
+        y = 1
+        completion_reward = { }
+    }
+	focus = {
+        id = sov_discredit_old_guard
+        icon = x
+        cost = x
+		prerequisite = {
+			focus = sov_all_again
+		}
+        x = 5
+        y = 2.5
+        completion_reward = { }
+    }
+}
