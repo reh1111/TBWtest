@@ -1,4 +1,4 @@
-version="1.16.10"
+version="1.17.1.1"
 tags={
 	"Alternative History"
 }
@@ -10,5 +10,5 @@ replace_path="map/supplyareas"
 replace_path="history/states"
 replace_path="common/decisions"
 replace_path="common/decisions/categories"
-supported_version="1.16.10"
+supported_version="1.17.1.1"
 remote_file_id="3596269077"

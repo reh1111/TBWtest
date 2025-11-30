@@ -5,9 +5,9 @@ country_event = {
 	desc = REV.d
 	option = {
 		name = REV.o
-		release = PRM
-		release = CON
-		release = TEC
-		release = UPT
+		activate_targeted_decision = {
+			target = USA
+			decision = civ_war
+		}
 	}
 }

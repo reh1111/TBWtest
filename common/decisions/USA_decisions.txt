@@ -5,7 +5,10 @@ civil_war_usa = {
 		}
 		days_mission_timeout = 80
 		complete_effect = {
-			release = USB
+			release = PRM
+			release = CON
+			release = TEC
+			release = UPT
 		}
 	 }
 }
