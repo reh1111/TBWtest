@@ -275,3 +275,129 @@ focus = {
         completion_reward = { }
     }
 } 
+focus_tree = {
+	id = SOV_fractionalism_mol
+	country = { 
+		factor = 0
+		modifier = {
+			tag = SOV
+			add = 10
+		}
+	}
+	continuous_focus_position = {
+		x = 0
+		y = 2588
+	}
+	default = yes
+    focus = {
+        id = sov_patriots_triumph
+        icon = GFX_goal_unknown
+        cost = 3
+        x = 5
+        y = 0
+        completion_reward = { }
+    }
+    focus = {
+        id = sov_first_steps_mol
+        icon = GFX_goal_unknown
+        cost = 2
+        prerequisite =  {
+            focus = sov_patriots_triumph
+        }
+        x = 5
+        y = 1.5
+        completion_reward = { }
+    }
+      focus = {
+        id = sov_create_rr
+        icon = GFX_goal_unknown
+        cost = 2
+        prerequisite = {
+            focus = sov_first_steps_mol
+        }
+        x = 3.5
+        y = 3
+        completion_reward = { }
+    }
+    focus = {
+        id = sov_peace_with_zhukov
+        icon = GFX_goal_unknown
+        cost = 3
+        prerequisite = {
+            focus = sov_first_steps_mol
+        }
+        mutually_exclusive = {
+            focus = sov_first_steps_mol 
+        }
+        x = 5
+        y = 3
+        completion_reward = { }
+    }
+    focus = {
+        id = sov_get_rid_of_zhukov
+        icon = GFX_goal_unknown
+        cost = 3
+        prerequisite = {
+            focus = sov_first_steps_mol
+        }
+        mutually_exclusive = {
+            focus = sov_first_steps_mol 
+        }
+        x = 6.5
+        y = 3
+        completion_reward = { }
+    }
+    focus = {
+        id = sov_execute_beria
+        icon = GFX_goal_unknown
+        cost = 3
+        prerequisite = {
+            focus = sov_create_rr
+        }
+        prerequisite = {
+            focus = sov_peace_with_zhukov
+            focus = sov_get_rid_of_zhukov
+        }
+        x = 4.3
+        y = 4.5
+        completion_reward = { }
+    }
+    focus = {
+        id = sov_humiliate_mal
+        icon = GFX_goal_unknown
+        cost = 2
+        prerequisite = {
+        focus = sov_peace_with_zhukov
+        focus = sov_get_rid_of_zhukov
+        }
+        x = 6
+        y = 4.5
+        completion_reward = { }
+    }
+    focus = {
+        id = sov_end_of_traitors
+        icon = GFX_goal_unknown
+        cost = 2
+        prerequisite = {
+        focus = sov_execute_beria
+        }
+        prerequisite = {
+            focus = sov_humiliate_mal
+        }
+        x = 5
+        y = 6
+        completion_reward = { }
+    }
+    focus = {
+        id = sov_oper_mol
+        icon = GFX_goal_unknown
+        cost = 5
+        prerequisite = {
+            focus = sov_end_of_traitors
+        }
+        x = 5
+        y = 7.5
+        completion_reward = { }
+    }
+}
+
